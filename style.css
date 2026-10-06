@@ -1,27 +1,27 @@
 /* ========================================================
-   翠萃竹韻 BAMBOO WELLNESS - 頂級身心舒壓美業行銷風格
-   設計語彙：植萃侘寂、極致放鬆、醫護信任、真實影像背書
+   翠萃竹韻 BAMBOO WELLNESS - 身心自癒教育學院官方樣式表
+   設計風格：頂級沙龍名邸・植萃清幽・無遮擋・無裁切高質感排版
 ======================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700;900&display=swap');
 
 :root {
-  /* 主色系：竹林清幽、青苔墨綠、奢華低飽和香檳金 */
-  --primary-forest: #1A3527;      /* 深竹墨綠：沉穩安定、深度放鬆 */
+  /* 主色系：竹林墨綠、鼠尾草綠、奢華低飽和香檳金 */
+  --primary-forest: #1A3527;      /* 深竹墨綠：沉穩安定、學院專業 */
   --primary-sage: #335944;        /* 鼠尾草林綠：溫潤、自然 */
   --primary-hover: #12241B;
   --accent-gold: #C29F68;         /* 暖韻香檳金：輕奢質感、專業點睛 */
   --accent-gold-light: #F7F2EB;   /* 柔金淺暈 */
-  --accent-terracotta: #D48B70;   /* 暖陶裸色：溫度與母嬰呵護感 */
+  --accent-terracotta: #D48B70;   /* 暖陶裸色 */
 
   /* 底色與文字 */
-  --bg-cream: #FAF8F5;            /* 溫潤和紙米白，告別生硬感 */
-  --bg-soft: #F2EFE9;             /* 輕灰暖米色（次要區塊） */
+  --bg-cream: #FAF8F5;            /* 溫潤和紙米白 */
+  --bg-soft: #F2EFE9;             /* 輕灰暖米色 */
   --bg-card: #FFFFFF;
-  --text-main: #242926;           /* 炭茶黑，護眼沉靜 */
+  --text-main: #242926;           /* 炭茶黑 */
   --text-muted: #6B756E;          /* 次要說明灰 */
   --text-light: #8E9992;
-  --border-light: rgba(194, 159, 104, 0.25);
+  --border-light: rgba(194, 159, 104, 0.28);
   --border-subtle: #E8E5DF;
 
   /* 行銷與標籤 */
@@ -96,7 +96,7 @@ h1, h2, h3, h4 {
 .top-bar {
   background-color: var(--primary-forest);
   color: var(--accent-gold-light);
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   letter-spacing: 1px;
   padding: 9px 16px;
   text-align: center;
@@ -139,7 +139,7 @@ h1, h2, h3, h4 {
 .logo-sub {
   font-family: var(--font-en);
   font-size: 0.72rem;
-  letter-spacing: 3.5px;
+  letter-spacing: 3px;
   color: var(--accent-gold);
   text-transform: uppercase;
   margin-top: -2px;
@@ -147,7 +147,7 @@ h1, h2, h3, h4 {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 28px;
+  gap: 26px;
   align-items: center;
 }
 .nav-links a {
@@ -189,13 +189,13 @@ h1, h2, h3, h4 {
   transform: translateY(-1px);
 }
 
-/* --- 首頁 Hero 區塊 --- */
+/* --- 首頁 Hero 區塊：自癒教育核心定位 --- */
 .hero {
   position: relative;
   padding: 130px 0 120px;
   text-align: center;
   background: 
-    linear-gradient(180deg, rgba(20, 40, 30, 0.82) 0%, rgba(26, 53, 39, 0.88) 100%),
+    linear-gradient(180deg, rgba(20, 40, 30, 0.84) 0%, rgba(26, 53, 39, 0.90) 100%),
     url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80') center center / cover no-repeat;
   color: #ffffff;
   overflow: hidden;
@@ -203,7 +203,7 @@ h1, h2, h3, h4 {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 880px;
+  max-width: 900px;
 }
 .hero-tag {
   display: inline-flex;
@@ -228,7 +228,7 @@ h1, h2, h3, h4 {
   box-shadow: 0 0 8px var(--accent-gold);
 }
 .hero h1 {
-  font-size: 3.1rem;
+  font-size: 3rem;
   letter-spacing: 2px;
   margin-bottom: 26px;
   color: #ffffff;
@@ -240,9 +240,9 @@ h1, h2, h3, h4 {
   font-family: var(--font-serif);
 }
 .hero p {
-  font-size: 1.18rem;
+  font-size: 1.15rem;
   color: #E2ECE5;
-  max-width: 700px;
+  max-width: 740px;
   margin: 0 auto 38px;
   line-height: 1.95;
   text-shadow: 0 1px 4px rgba(0,0,0,0.3);
@@ -351,50 +351,63 @@ h1, h2, h3, h4 {
   color: var(--primary-forest);
 }
 
-/* --- 痛點同理區 --- */
+/* --- 痛點與理念共鳴區 --- */
 .pain-points {
-  padding: 70px 0;
+  padding: 80px 0;
   background-color: #F4EFE6;
   border-top: 1px solid var(--border-subtle);
   border-bottom: 1px solid var(--border-subtle);
 }
 .pain-header {
   text-align: center;
-  margin-bottom: 38px;
+  margin-bottom: 45px;
 }
 .pain-header h3 {
-  font-size: 1.55rem;
-  margin-bottom: 8px;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: var(--primary-forest);
+}
+.pain-header p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
 }
 .pain-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 22px;
+  gap: 24px;
 }
 .pain-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(8px);
-  padding: 26px;
+  padding: 30px 26px;
   border-radius: var(--radius-md);
-  border-left: 4px solid var(--accent-gold);
+  border-top: 4px solid var(--accent-gold);
   box-shadow: var(--shadow-sm);
   transition: transform 0.25s ease;
 }
 .pain-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+}
+.pain-card .pain-num {
+  font-family: var(--font-en);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent-gold);
+  display: block;
+  margin-bottom: 8px;
 }
 .pain-card h4 {
-  font-size: 1.15rem;
-  margin-bottom: 8px;
+  font-size: 1.18rem;
+  margin-bottom: 10px;
   color: var(--primary-forest);
 }
 .pain-card p {
-  font-size: 0.93rem;
+  font-size: 0.94rem;
   color: var(--text-muted);
   line-height: 1.75;
 }
 
-/* --- 3大核心價值 --- */
+/* --- 3大核心價值 / 授人以漁 --- */
 .values {
   padding: 95px 0;
 }
@@ -444,7 +457,7 @@ h1, h2, h3, h4 {
 /* --- 標題規範 --- */
 .sec-header {
   text-align: center;
-  max-width: 660px;
+  max-width: 720px;
   margin: 0 auto 55px auto;
 }
 .sec-subtitle {
@@ -467,9 +480,9 @@ h1, h2, h3, h4 {
   font-size: 1.05rem;
 }
 
-/* --- 主理人區塊：頂級沙龍名邸拱形畫框風格 --- */
+/* --- 主理人區塊：頂級沙龍名邸風格（無裁切、無溢出、零遮擋） --- */
 .about {
-  padding: 110px 0;
+  padding: 100px 0;
   background: radial-gradient(circle at 10% 20%, rgba(194, 159, 104, 0.12) 0%, transparent 40%),
               linear-gradient(135deg, #F6F2EB 0%, #ECE4D6 100%);
   position: relative;
@@ -477,39 +490,28 @@ h1, h2, h3, h4 {
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1.35fr;
-  gap: 65px;
+  gap: 60px;
   align-items: center;
 }
 .about-photo-wrapper {
   position: relative;
-  max-width: 420px;
+  max-width: 380px;
   margin: 0 auto;
-}
-.about-photo-wrapper::before {
-  content: "";
-  position: absolute;
-  top: -14px;
-  left: -14px;
   width: 100%;
-  height: 100%;
-  border: 1.5px solid var(--accent-gold);
-  border-radius: 200px 200px var(--radius-lg) var(--radius-lg);
-  opacity: 0.6;
-  pointer-events: none;
-  z-index: 1;
 }
+/* 拱型主相框 */
 .about-photo-card {
   position: relative;
-  border-radius: 200px 200px var(--radius-lg) var(--radius-lg);
+  border-radius: 190px 190px 24px 24px;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgba(26, 53, 39, 0.16);
-  border: 1px solid rgba(194, 159, 104, 0.35);
+  box-shadow: 0 16px 40px rgba(26, 53, 39, 0.14);
+  border: 2px solid var(--accent-gold);
   background: #ffffff;
-  z-index: 2;
+  height: 460px;
 }
 .about-photo-img {
   width: 100%;
-  height: 500px;
+  height: 100%;
   object-fit: cover;
   object-position: top center;
   display: block;
@@ -518,56 +520,68 @@ h1, h2, h3, h4 {
 .about-photo-card:hover .about-photo-img {
   transform: scale(1.03);
 }
-.about-photo-overlay {
-  position: absolute;
-  bottom: 16px;
-  left: 16px;
-  right: 16px;
-  background: rgba(26, 53, 39, 0.88);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  color: #fff;
-  padding: 18px 20px;
-  border-radius: var(--radius-md);
-  text-align: center;
-  border: 1px solid rgba(194, 159, 104, 0.3);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-}
+/* 專業認證徽章：移至右下角平直處，徹底避開頂部圓弧與頭髮 */
 .floating-cert-badge {
   position: absolute;
-  top: 30px;
-  right: -15px;
+  bottom: 16px;  /* 👈 改成 bottom: 16px (原本是 top) */
+  right: 16px;
+  top: auto;
   background: linear-gradient(135deg, var(--accent-gold) 0%, #A88147 100%);
   color: #ffffff;
-  padding: 10px 18px;
+  padding: 8px 16px;
   border-radius: var(--radius-full);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 1px;
-  box-shadow: 0 8px 20px rgba(168, 129, 71, 0.35);
+  letter-spacing: 0.8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   gap: 6px;
-  z-index: 3;
+  z-index: 5;
+  white-space: nowrap;
 }
-.badge-text span {
-  display: block;
+/* 主理人獨立名牌卡片：獨立純白背景、清晰金邊、文字舒展不重疊 */
+.about-founder-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 22px 24px;
+  margin-top: 18px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(26, 53, 39, 0.06);
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+.founder-title-tag {
   font-family: var(--font-en);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   letter-spacing: 3px;
   color: var(--accent-gold);
+  font-weight: 600;
+  margin-bottom: 6px;
 }
-.badge-text strong {
-  display: block;
+.founder-name {
+  font-family: var(--font-serif);
   font-size: 1.45rem;
-  margin-top: 6px;
-  letter-spacing: 1.5px;
+  color: var(--primary-forest);
+  margin-bottom: 10px;
 }
-.badge-quote {
-  margin-top: 10px;
-  font-size: 0.86rem;
-  color: #D3E0D8;
+.founder-name span {
+  font-size: 0.95rem;
+  font-family: var(--font-sans);
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-left: 8px;
+}
+.founder-quote {
+  font-size: 0.88rem;
+  color: var(--text-muted);
   font-style: italic;
+  line-height: 1.75;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border-subtle);
+  margin: 0;
 }
 .about-info h2 {
   font-size: 2.15rem;
@@ -595,7 +609,7 @@ h1, h2, h3, h4 {
   color: var(--primary-forest);
 }
 
-/* --- 服務方案卡片 --- */
+/* --- 核心研習教學方案卡片 --- */
 .services {
   padding: 105px 0;
   background-color: var(--bg-cream);
@@ -734,7 +748,40 @@ h1, h2, h3, h4 {
   border-color: var(--primary-forest);
 }
 
-/* --- 環境衛生承諾橫幅：使用真實薰衣草燭光海鹽照 914d...jpg --- */
+/* --- 調理服務式微／特別說明卡片 --- */
+.private-treatment-note {
+  margin-top: 50px;
+  background: #F4EFE6;
+  border: 1px dashed rgba(194, 159, 104, 0.45);
+  border-radius: var(--radius-md);
+  padding: 28px 32px;
+  text-align: center;
+  position: relative;
+}
+.note-badge {
+  display: inline-block;
+  background-color: var(--primary-forest);
+  color: #ffffff;
+  font-size: 0.78rem;
+  padding: 4px 14px;
+  border-radius: var(--radius-full);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.private-treatment-note h4 {
+  font-size: 1.2rem;
+  color: var(--primary-forest);
+  margin-bottom: 10px;
+}
+.private-treatment-note p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  max-width: 820px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* --- 環境衛生與教學承諾橫幅 --- */
 .environment-banner {
   position: relative;
   background: 
@@ -941,7 +988,7 @@ h1, h2, h3, h4 {
   margin-bottom: 4px;
 }
 
-/* --- 客戶回饋評價 --- */
+/* --- 學員與機構見證評價 --- */
 .testimonials {
   padding: 95px 0;
   background-color: var(--bg-cream);
@@ -1002,7 +1049,7 @@ h1, h2, h3, h4 {
   color: var(--text-light);
 }
 
-/* 顧客真實合影見證卡 */
+/* 學員真實合影見證卡 */
 .testi-photo-card {
   background: var(--bg-card);
   border-radius: var(--radius-md);
@@ -1025,7 +1072,7 @@ h1, h2, h3, h4 {
   flex-grow: 1;
 }
 
-/* --- 預約流程 --- */
+/* --- 教學與研習流程 --- */
 .process {
   padding: 100px 0;
   background-color: #F4EFE6;
@@ -1164,7 +1211,7 @@ h1, h2, h3, h4 {
   transform: translateY(-3px) scale(1.02);
 }
 
-/* --- 手機版專屬固定預約列 --- */
+/* --- 手機版專屬固定列 --- */
 .mobile-bottom-bar {
   display: none;
   position: fixed;
@@ -1216,8 +1263,8 @@ h1, h2, h3, h4 {
     padding: 85px 0 75px;
   }
   .hero h1 {
-    font-size: 2.25rem;
-    line-height: 1.3;
+    font-size: 2.15rem;
+    line-height: 1.35;
   }
   .hero p {
     font-size: 1.05rem;
@@ -1226,12 +1273,29 @@ h1, h2, h3, h4 {
     grid-template-columns: 1fr;
     gap: 36px;
   }
+  .about-photo-wrapper {
+    max-width: 320px;
+  }
+  .about-photo-card {
+    height: 400px;
+    border-radius: 160px 160px 20px 20px;
+  }
   .about-photo-img {
-    height: 380px;
+    height: 100%;
+    object-position: top center;
   }
   .floating-cert-badge {
-    top: 20px;
-    right: 10px;
+    top: 14px;
+    right: 14px;
+    font-size: 0.76rem;
+    padding: 6px 14px;
+  }
+  .about-founder-card {
+    padding: 18px 20px;
+    margin-top: 14px;
+  }
+  .founder-name {
+    font-size: 1.3rem;
   }
   .credentials {
     grid-template-columns: 1fr;
